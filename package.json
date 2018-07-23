@@ -1,0 +1,14 @@
+{
+  "name": "yarn-postinstall-repro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reproduce a yarn postinstall bug",
+  "scripts": {
+    "postinstall": "ruby script.rb"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1"
+  },
+  "author": "Kevin Ndung'u",
+  "license": "MIT"
+}
